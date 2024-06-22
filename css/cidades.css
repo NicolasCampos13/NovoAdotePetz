@@ -1,0 +1,19 @@
+.card img {
+  max-width: 600px;
+  min-height: 226px;
+  max-height: 226.5px;
+}
+
+button {
+  border: 2px solid green;
+  color: white;
+}
+
+button a:hover {
+  color: black;
+  background-color: white;
+}
+
+.card img {
+  filter: brightness(75%);
+}

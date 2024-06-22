@@ -1,0 +1,23 @@
+.card .btn:hover {
+  color: black;
+}
+
+.card .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: white;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.card .btn:hover::before {
+  width: 100%;
+}
+
+.card img {
+  filter: brightness(75%);
+}

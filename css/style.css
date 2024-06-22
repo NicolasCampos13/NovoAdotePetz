@@ -1,0 +1,352 @@
+/*-------------------------------------- Body --------------------------------------*/
+html body {
+  background-color: #c2c2c2;
+}
+
+.inde {
+  font-style: bold;
+}
+
+/* ------------------------------------------Background ----------------------------*/
+.background {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/vecteezy_photo-dog-and-cat-on-a-plain-white-background-ai-generated_33027042.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background img {
+  filter: brightness(50%);
+}
+
+.background h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+  color: black;
+  margin-bottom: 420px;
+}
+
+/* -------------------------------Footer (RODAPE) ---------------------------------*/
+footer {
+  background-color: #d8d8d8;
+  margin-top: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+footer p {
+  margin-left: 45px;
+}
+
+footer li {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer li a {
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+  padding: 8px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+footer li a:hover {
+  background-color: white;
+  color: black;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+/*---------------------------- Navbar -----------------------------------*/
+.navbar-brand {
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.navbar.navbar {
+  background-color: #d8d8d8 !important;
+}
+
+.navbar-nav {
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+  margin-right: 6px;
+}
+
+.nav-link-active {
+  margin-top: 6.5px;
+  text-decoration: none;
+  color: blue;
+  border-bottom: 2px solid blue;
+  padding: 2px;
+  margin-right: 10px;
+}
+
+/*-------------------------------------- Card ----------------------------------------*/
+.card {
+  background-color: #e9e9e9 !important;
+  margin-bottom: 15px;
+}
+
+.cards .card {
+  margin: 10px;
+}
+
+.card-sec {
+  margin: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.btn-primary {
+  border: 2px solid green;
+}
+
+.container-fluid {
+  background-color: #d8d8d8;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.titulosobre {
+  margin-top: 15px;
+}
+
+.cardsdois {
+  max-width: 2200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 580px));
+  gap: 50px;
+  padding-top: 20px;
+}
+.cartão {
+  display: flex;
+}
+.maiscards {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+/*--------------------------------------- Home --------------------------------------------*/
+.home {
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-content .btn-box {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+
+/*-------------------------------------- Botão ------------------------------------- */
+.btn-box {
+  margin-top: 350px;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background-color: #488ce0;
+  border: 2px solid #488ce0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn-box a:hover {
+  color: black;
+}
+
+.btn-box a:nth-child(2) {
+  background: #488ce0;
+  color: white;
+}
+
+.btn-box a:nth-child(2):hover {
+  color: #081b29;
+}
+
+.btn-box a:nth-child(2)::before {
+  background-color: white;
+}
+
+.btn-box a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: white;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-box a:hover::before {
+  width: 100%;
+}
+
+.btn-btn-primary {
+  background-color: green !important;
+}
+
+/*------------------------------------CARD--------------------------------------------*/
+.card {
+  max-width: 800px;
+  max-height: 900px;
+}
+
+.card img {
+  min-height: 399.9px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/*-------------------------------------ESCOLHA DE PET (INDEX)-----------------------------------------*/
+.indexpag {
+  margin-top: 50px;
+  display: flex;
+  background-color: #00a1e4;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexpag .text {
+  margin: 25px;
+  margin-right: 45px;
+}
+
+.petescolha btn btn-primary {
+  background-color: red;
+}
+
+.petescolha {
+  width: 5000;
+  height: 1500;
+}
+.novnovcard {
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.backgaler {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/backgroundcachorro.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.backgaler img {
+  filter: brightness(50%);
+}
+.backgaler h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+  color: black;
+  margin-bottom: 420px;
+}
+
+.backcid {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/entrega.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.backcid img {
+  filter: brightness(50%);
+}
+.backcid h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+  color: black;
+  margin-bottom: 420px;
+}
+
+.backsob {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/outrobackdog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.backsob img {
+  filter: brightness(50%);
+}
+.backsob h2 {
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+  color: black;
+  margin-bottom: 420px;
+}

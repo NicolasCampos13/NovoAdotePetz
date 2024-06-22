@@ -1,0 +1,33 @@
+.card {
+  background-color: #a5dd9b;
+  margin-bottom: 15px;
+}
+
+.navbar.navbar {
+  background-color: #d8d8d8 !important;
+}
+
+footer li {
+  background-color: #d8d8d8;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-img-top {
+  max-width: 50vh;
+  width: 10%;
+}
+.card-img-overlay {
+  justify-content: center;
+  align-items: center;
+}
+.novnovcard {
+  display: flex;
+}
+.cardhome {
+  margin-right: 25px;
+}
